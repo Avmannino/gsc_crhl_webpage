@@ -1,0 +1,67 @@
+html {
+  width: 100%;
+  min-width: 320px;
+
+  margin: 0;
+  padding: 0;
+
+  background: #ffffff;
+
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  min-width: 320px;
+
+  margin: 0;
+  padding: 0;
+
+  overflow-x: hidden;
+
+  background: #ffffff;
+
+  font-family:
+    "Montserrat",
+    Arial,
+    Helvetica,
+    sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 100%;
+  min-width: 320px;
+  min-height: 100vh;
+
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+::selection {
+  background: #e30220;
+  color: #ffffff;
+}
