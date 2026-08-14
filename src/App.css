@@ -35,7 +35,9 @@
 
 .crhl-page {
   width: 100%;
-  min-width: 320px;
+  min-width: 0;
+  min-height: 0;
+  height: auto;
 
   overflow: hidden;
 
@@ -157,8 +159,8 @@
 .hero-logo {
   display: block;
 
-  width: min(100%, 693px);
-  max-height: 270px;
+  width: min(100%, 77vw, 728px);
+  max-height: 284px;
 
   object-fit: contain;
   object-position: center;
@@ -1339,6 +1341,9 @@
   position: relative;
 
   width: 100%;
+  min-width: 0;
+  min-height: 0;
+  height: auto;
 
   overflow: hidden;
   isolation: isolate;
