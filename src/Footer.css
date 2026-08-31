@@ -153,7 +153,7 @@
 .footer-logo {
   display: inline-flex;
 
-  width: clamp(132px, 10vw, 172px);
+  width: clamp(104px, 8vw, 138px);
 
   margin-left: 20px;
   margin-top: 50px;
@@ -333,8 +333,6 @@
 
   margin-top: 27px;
   padding-top: 40px;
-
-  border-top: 1px solid var(--footer-line);
 }
 
 .footer-connect__info {
@@ -589,7 +587,7 @@
   }
 
   .footer-logo {
-    width: 138px;
+    width: 110px;
   }
 
   .footer-menu__groups {
@@ -646,9 +644,9 @@
 
   .footer-logo {
     position: relative;
-    left: -8px;
+    left: -16px;
 
-    width: 110px;
+    width: 88px;
 
     margin: 0 auto;
   }
@@ -656,6 +654,11 @@
   .footer-menu h2,
   .footer-connect h2 {
     text-align: center;
+  }
+
+  .footer-menu h2 {
+    position: relative;
+    left: -8px;
   }
 
   .footer-menu h2::after,
