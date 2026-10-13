@@ -153,7 +153,7 @@
 .footer-logo {
   display: inline-flex;
 
-  width: clamp(112px, 8.5vw, 148px);
+  width: clamp(104px, 8vw, 138px);
 
   margin-left: 20px;
   margin-top: 50px;
@@ -607,7 +607,7 @@
   }
 
   .footer-logo {
-    width: 118px;
+    width: 110px;
   }
 
   .footer-menu__groups {
@@ -663,9 +663,9 @@
 
   .footer-logo {
     position: relative;
-    left: -8px;
+    left: -16px;
 
-    width: 94px;
+    width: 88px;
 
     margin: 0 auto;
   }
